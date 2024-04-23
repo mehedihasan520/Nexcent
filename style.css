@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NavBar Start */
+.navbar {
+    display: flex;
+    width: auto;
+    height: 84px;
+    padding: 0 8%;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F5F7FA;
+}
+
+.logo {
+    width: 155px;
+    height: 24px;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav-ul li a{
+    text-decoration: none;
+    color: #74777a;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.nav-button {
+    display: flex;
+    gap: 30px;
+}
+
+.button-login {
+    background-color: #F5F7FA;
+    color: #28cb28;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-signup {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #28cb28;
+    color: #F5F7FA;
+}
+/* NavBar End */
+
+/* Hero Section Start */
+.hero-section {
+    display: flex;
+    padding: 0 10%;
+    background-color: #F5F7FA;
+}
+
+.hero-left-side {
+    width: 50%;
+}
+
+.hero-title-area {
+    width: 657px;
+    height: 270px;
+    gap: 32px;
+    margin-top: 100px;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: 600;
+    color: #74777a;
+}
+
+.hero-heading span {
+    color: #28cb28;
+}
+
+.hero-paragraph {
+    color: #aaadb1;
+    margin: 20px 0 20px 0;
+    
+}
+
+.registration {
+    padding: 14px 32px 14px 32px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    color: #FFFFFF;
+    margin-top: 30px;
+    border: none;
+}
+
+.hero-right-side {
+    width: 50%;
+}
+
+.hero-image {
+    width: 391px;
+    height: 407px;
+    margin: 20px 0 0 130px;
+}
+
+.dots {
+    margin: 20px 0 20px 0;
+}
+/* Hero Section Start */
