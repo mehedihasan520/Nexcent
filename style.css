@@ -81,7 +81,7 @@ html, body {
 .hero-heading {
     font-size: 48px;
     font-weight: 600;
-    color: #74777a;
+    color: #414344;
 }
 
 .hero-heading span {
@@ -89,7 +89,7 @@ html, body {
 }
 
 .hero-paragraph {
-    color: #aaadb1;
+    color: #838586;
     margin: 20px 0 20px 0;
     
 }
@@ -97,7 +97,7 @@ html, body {
 .registration {
     padding: 14px 32px 14px 32px;
     border-radius: 4px;
-    background: #4CAF4F;
+    background: #28cb28;
     color: #FFFFFF;
     margin-top: 30px;
     border: none;
@@ -117,3 +117,242 @@ html, body {
     margin: 20px 0 20px 0;
 }
 /* Hero Section Start */
+
+/* Clients & community Section start */
+.clients-section {
+    padding: 0 10%;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.clients-discription h1 {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #4e4f51;
+}
+
+.clients-discription p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #838586;
+}
+
+.clients-logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 0 0;
+}
+
+.community-section {
+    padding: 0 10%;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.community-heading h1 {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #4e4f51;
+}
+
+.community-heading p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #838586;
+}
+
+.community-card-section {
+    display: flex;
+    padding: 0 10%;
+    margin-top: 40px;
+    column-gap: 10%;
+    justify-content: center;
+}
+
+.community-card {
+    margin-top: 40px;
+    width: 300px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.10);
+}
+
+.community-card h2 {
+    color: #4e4f51;
+}
+
+.community-card p {
+    color: #838586;
+}
+
+
+/* Clients & community Section End */
+
+/* unseen area start */
+.unseen-area{
+    display: flex;
+    padding: 0 10%;
+    row-gap: 32px;
+}
+
+.unseen-left-side {
+    width: 50%;
+}
+
+.unseen-right-side {
+    width: 50%;
+    margin-top: 90px;
+}
+
+.unseen-heading {
+    color: #4e4f51;
+}
+
+.unseen-paragraph {
+    margin: 20px 0;
+    color: #838586;
+}
+
+.learn-more {
+    padding: 14px 32px 14px 32px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    color: #FFFFFF;
+    border: none; 
+}
+/* unseen area end */
+/* Achievements Start */
+.achievements {
+    display: flex;
+    padding: 0 10%;
+    background-color: #F5F7FA;
+}
+
+.achievements-heading {
+    width: 50%;
+    margin: 80px 0;
+    color: #414344;
+}
+
+.achievements-heading span {
+    color: #4CAF4F;
+}
+
+.achievements-heading p {
+    margin-top: 20px;
+}
+
+.counts {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.counts-item {
+    display: flex;
+}
+
+.counts-item img {
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+}
+
+.quantity h1 {
+    color: #414344;
+}
+
+.quantity p {
+    color: #838586;
+}
+/* Achievements End */
+/* Calender Area Start */
+.calender-area{
+    display: flex;
+    padding: 0 10%;
+    margin: 40px 0;
+}
+
+.calender-left-side {
+    width: 50%;
+}
+
+.calender-right-side {
+    width: 50%;
+    margin-top: 90px;
+}
+
+.calender-heading {
+    color: #4e4f51;
+    font-size: 30px;
+}
+
+.calender-paragraph {
+    margin: 20px 0;
+    color: #838586;
+}
+/* Calender Area End */
+/* Customer Area Start */
+.customer-area {
+    display: flex;
+    background-color: #F5F7FA;
+    padding: 2% 10%;
+}
+
+.customer-left-side{
+    width: 40%;
+}
+
+.customer-left-side img {
+    width: 326px;
+    height: 326px;
+}
+
+.customer-right-side {
+    width: 60%;
+}
+
+.customer-right-side p {
+    color: #74777a;
+}
+
+.customer-right-side h3 {
+    color: #28cb28;
+    margin: 20px 0;
+}
+
+.customer-right-side h4 {
+    margin: 20px 0;
+    color: #838586;
+}
+
+.customer-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+/* Customer Area End */
+/* Marketing Area Start */
+.marketing-area {
+    padding: 2% 10%;
+}
+
+.marketing-heading {
+    text-align: center;
+    align-items: center;
+    color: #414344;
+}
+
+.marketing-heading p {
+    margin: 10px 180px;
+    color: #838586;
+}
+/* Marketing Area End */
