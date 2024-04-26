@@ -355,4 +355,126 @@ html, body {
     margin: 10px 180px;
     color: #838586;
 }
+
+.marketing-card-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    margin: 20px 0;
+}
+
+.marketing-img {
+    width: 320px;
+    height: 230px;
+}
+
+.content {
+    width: 280px;
+    height: 150px;
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
+    transform: translate(20px, -100px);
+    text-align: center;
+}
+
+.content h4 {
+    padding: 20px 0 0 0;
+    color: #74777a;
+    line-height: 1.5rem;
+}
+
+.read-more {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    color: #28cb28;
+    background-color: #F5F7FA;
+}
+
+.read-more img {
+    margin-left: 10px;
+}
 /* Marketing Area End */
+/* Get demo Start */
+.get-demo {
+    padding: 2% 10%;
+    text-align: center;
+    font-size: 24px;
+    background-color: #F5F7FA;
+    color: #414344;
+}
+
+.get-demo button {
+    background-color: #28cb28;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+/* Get demo End */
+/* Footer Start */
+.footer {
+    display: flex;
+    height: 328px;
+    background-color: #414344;
+    color: #F5F7FA;
+    padding: 0 10%;
+}
+
+.footer-left {
+    width: 40%;
+    padding: 8% 10% 5% 0;
+}
+.footer-left p {
+    line-height: 1.5rem;
+    margin: 20px 0;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right {
+    width: 52%;
+    color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company h3 {
+    margin-top: 80px;
+}
+
+.company ul li {
+    list-style: none;
+    margin-top: 20px;
+    
+}
+.support h3 {
+    margin-top: 80px;
+}
+
+.support ul li {
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+.email h3 {
+    margin-top: 80px;
+}
+
+.email input {
+    background-color: #838586;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.email ::placeholder {
+    color: #F5F7FA;
+}
+/* Footer End */
